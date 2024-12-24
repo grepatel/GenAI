@@ -1,0 +1,111 @@
+**Objective:**  
+
+Develop a production-grade software component that adheres to industry best practices and embodies the principles of **microservices** or **distributed systems**. The solution should be designed for **real-world deployment** with consideration for maintainability, performance, and scaling.
+
+**Requirements:**  z
+
+
+
+1. **Code Quality & Standards:**  
+
+   - Write clean, modular, and well-documented code.  
+
+   - Follow industry coding standards (e.g., SOLID principles, DRY, KISS).  
+
+   - Implement comprehensive unit tests with >90% code coverage.  
+
+
+
+2. **Microservice/Distributed Architecture:**  
+
+   - Ensure loose coupling and high cohesion.  
+
+   - Use a stateless design where applicable.  
+
+   - Define clear APIs with consistent and versioned endpoints (e.g., REST, GraphQL, gRPC).  
+
+
+
+3. **Key Architectural Principles:**  
+
+   - **Consistency:** Guarantee data consistency using distributed patterns (e.g., eventual consistency, CAP theorem).  
+
+   - **Autonomy:** Ensure the service is self-contained and independently deployable.  
+
+   - **High Availability:** Incorporate fault-tolerant mechanisms (e.g., retries, circuit breakers).  
+
+
+
+4. **Performance & Scalability:**  
+
+   - Design for horizontal scalability.  
+
+   - Optimize for performance under high concurrency (e.g., asynchronous processing, caching).  
+
+
+
+5. **Security:**  
+
+   - Enforce security best practices (e.g., encryption, authentication, and authorization).  
+
+   - Use secure communication protocols (e.g., HTTPS, mTLS).  
+
+   - Protect against common vulnerabilities (e.g., OWASP Top 10).  
+
+
+
+6. **Integration & Observability:**  
+
+   - Implement logging and distributed tracing (e.g., using OpenTelemetry).  
+
+   - Enable seamless integration with CI/CD pipelines.  
+
+   - Provide robust monitoring and alerting mechanisms.  
+
+
+
+7. **Maintainability:**  
+
+   - Write code that is easy to extend and refactor.  
+
+   - Include clear documentation for setup, usage, and deployment.  
+
+
+
+8. **Reliability:**  
+
+   - Include automated test cases for edge scenarios and failure handling.  
+
+   - Simulate and handle transient failures gracefully.  
+
+
+
+---
+
+
+
+**Deliverables:**  
+
+- Source code in a public or private repository (e.g., GitHub, GitLab).  
+
+- Documentation explaining the design, usage, and architectural decisions.  
+
+- A suite of tests covering functionality and edge cases.  
+
+- Deployment instructions or scripts (e.g., Docker, Kubernetes).  
+
+
+
+**Evaluation Criteria:**  
+
+- Code quality and adherence to standards.  
+
+- Correctness and completeness of functionality.  
+
+- Scalability, reliability, and security considerations.  
+
+- Ease of integration and deployment.  
+
+- Performance under simulated production loads.  
+
+
